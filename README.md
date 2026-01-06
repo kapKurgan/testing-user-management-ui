@@ -38,6 +38,7 @@ https://www.saucedemo.com/
 ## Оглавление
 
 - [Реализовано](#реализовано)
+- [Начало работы](#начало-работы)
 - [CI/CD](#cicd)
 - [URL отчетов GitHub Pages](#url-отчетов-github-pages)
 - [Интеграция с GitHub Actions](#интеграция-с-github-actions)
@@ -67,6 +68,51 @@ https://www.saucedemo.com/
 - при успешном завершении теста делает скриншот и прикрепляет его к Allure-отчёту.
 
 --- 
+
+## Начало работы
+
+### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/kapKurgan/effective-mobile.git
+cd effective-mobile
+```
+
+### 2. Создать виртуальную среду
+
+#### Linux / MacOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Устанавить зависимости
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Запуск тестов
+
+```bash
+pytest --headed --slowmo 1000 -v --alluredir=reports/allure-results --html=reports/pytest_report.html --capture=tee-sys --self-contained-html
+```
+
+### 5. Просмотр Allure отчетов
+
+```bash
+allure serve reports/allure-results
+```
+
+---
 
 ## CI/CD
 
