@@ -1,0 +1,7 @@
+[
+  ["standard_user",          "secret_sauce", "Успешный логин",                      "Позитивный сценарий", "Стандартный пользователь",  "CRITICAL", "positive"],
+  ["standard_user",          "wrong_pass",   "Логин с неверным паролем",            "Негативный сценарий", "Неправильный пароль",       "NORMAL",   "negative"],
+  ["locked_out_user",        "secret_sauce", "Логин заблокированного пользователя", "Негативный сценарий", "Пользователь заблокирован", "NORMAL",   "negative"],
+  ["",                       "",             "Логин с пустыми полями",              "Негативный сценарий", "Пустые логин и пароль",     "MINOR",    "negative"],
+  ["performance_glitch_user","secret_sauce", "Логин performance_glitch_user",       "Позитивный сценарий", "Медленный пользователь",    "CRITICAL", "positive"]
+]

@@ -68,5 +68,11 @@ def open_page(page: Page, url: str, *, wait_until: str = "load", timeout: int = 
                 name=f"navigation_error_{url.replace('/', '_').replace(':', '')}",
                 attachment_type=allure.attachment_type.PNG,
             )
-            # переводим ошибку в AssertionError, чтобы pytest пометил тест как FAILED
             raise AssertionError(f"Не удалось перейти на {url}: {e}") from e
+
+def attach_screenshot(page: Page, name: str = "Скриншот"):
+    """
+        Прикрепляет скриншот страницы к Allure-отчету
+    """
+    screenshot = page.screenshot()
+    allure.attach(screenshot, name=name, attachment_type=allure.attachment_type.PNG)

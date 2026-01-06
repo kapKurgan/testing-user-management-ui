@@ -5,7 +5,6 @@ import os
 def read_test_data_json(filename) -> list:
     """
         Чтение данных из JSON-файла.
-
         Если файл не найден или повреждён, возвращает пустой список.
     """
     if not os.path.isfile(filename):
