@@ -103,6 +103,12 @@ pip install -r requirements.txt
 ### 4. Запуск тестов
 
 ```bash
+pytest
+```
+
+или полная команда
+
+```bash
 pytest --headed --slowmo 1000 -v --alluredir=reports/allure-results --html=reports/pytest_report.html --capture=tee-sys --self-contained-html
 ```
 
