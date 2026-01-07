@@ -1,0 +1,10 @@
+
+✅ Открыта страница: https://www.saucedemo.com/
+✅ Успешная проверка URL: https://www.saucedemo.com/
+✅ Успешная проверка названия: Swag Labs
+✅ Успешная проверка атрибута placeholder у поля: Username
+✅ Успешная проверка атрибута placeholder у поля: Password
+✅ Успешная проверка атрибута value у поля: Login
+✅ Успешная проверка URL: https://www.saucedemo.com/inventory.html
+✅ Успешная проверка названия: Products
+✅ Сделан: Скриншот Products

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 07 17:12:49 UTC 2026","Wed Jan 07 17:12:49 UTC 2026","174","tests","test_page_login","TestsLogin","","","Успешный логин","Стандартный пользователь"
+"passed","Wed Jan 07 17:12:51 UTC 2026","Wed Jan 07 17:12:51 UTC 2026","99","tests","test_page_login","TestsLogin","","","Логин с пустыми полями","Пустые логин и пароль"
+"passed","Wed Jan 07 17:12:50 UTC 2026","Wed Jan 07 17:12:50 UTC 2026","120","tests","test_page_login","TestsLogin","","","Логин заблокированного пользователя","Пользователь заблокирован"
+"passed","Wed Jan 07 17:12:50 UTC 2026","Wed Jan 07 17:12:50 UTC 2026","124","tests","test_page_login","TestsLogin","","","Логин с неверным паролем","Неправильный пароль"
+"passed","Wed Jan 07 17:12:51 UTC 2026","Wed Jan 07 17:12:56 UTC 2026","5164","tests","test_page_login","TestsLogin","","","Логин performance_glitch_user","Медленный пользователь"
