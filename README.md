@@ -154,6 +154,7 @@ docker run --rm -p 8080:8080 -p 5252:5252 -v ${PWD}/reports:/app/reports aqa-py
 ## URL отчетов GitHub Pages
 
 ### HTML
+
 ```bash
 https://kapKurgan.github.io/effective-mobile/<run_id>/pytest-report.html
 ```
@@ -163,12 +164,14 @@ https://kapKurgan.github.io/effective-mobile/20789637473/pytest_report.html
 
 
 ### ALLURE 
+
 ```bash
 https://kapKurgan.github.io/effective-mobile/<run_id>/allure-report/index.html
 ```
 
 Например:
 https://kapKurgan.github.io/effective-mobile/20789637473/allure-report/index.html
+
 ---
 
 ## Требования
