@@ -92,6 +92,7 @@ def attach_screenshot(page: Page, name: str = "Скриншот"):
     """
         Прикрепляет скриншот страницы к Allure-отчету
     """
+    page.wait_for_load_state('networkidle')
     screenshot = page.screenshot()
     allure.attach(screenshot, name=name, attachment_type=allure.attachment_type.PNG)
     print(f"  📸 Сделан: {name}")
