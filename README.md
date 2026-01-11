@@ -167,7 +167,15 @@ docker run --rm -p 8080:8080 -p 5252:5252 -v ${PWD}/reports:/app/reports aqa-py
 
 В этом проекте включена интеграция с GitHub Actions. 
 
-Конфигурацию можно найти в [ui-tests.yml](./.github/workflows/ui-tests.yml).
+Конфигурации:
+- автоматического запуска тестов в [ui-tests-auto.yml](./.github/workflows/ui-tests-auto.yml)
+- ручного запуска тестов в [ui-tests-manual.yml](./.github/workflows/ui-tests-manual.yml)
+
+Ручной запуск через интерфейс GitHub:
+- [Перейдите в Actions > API Tests > Run workflow](https://github.com/kapKurgan/effective-mobile/actions)
+- Выберите сценарий тестов (например, **-m login**)
+- Нажмите **workflow**
+
 
 ---
 
@@ -180,7 +188,7 @@ https://kapKurgan.github.io/effective-mobile/<run_id>/pytest-report.html
 ```
 
 Например:
-https://kapKurgan.github.io/effective-mobile/20880855761/pytest_report.html
+https://kapKurgan.github.io/effective-mobile/20892464156/pytest_report.html
 
 ### ALLURE 
 
@@ -189,7 +197,7 @@ https://kapKurgan.github.io/effective-mobile/<run_id>/allure-report/index.html
 ```
 
 Например:
-https://kapKurgan.github.io/effective-mobile/20880855761/allure-report/index.html
+https://kapKurgan.github.io/effective-mobile/20892464156/allure-report/index.html
 
 ---
 
