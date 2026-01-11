@@ -116,10 +116,21 @@ pip install -r requirements.txt
 pytest
 ```
 
-или полная команда
+- полная команда
 
 ```bash
 pytest --headed --slowmo 1000 -v --alluredir=reports/allure-results --html=reports/pytest_report.html --capture=tee-sys --self-contained-html
+```
+
+- запуск по маркерам
+
+```bash
+pytest -m smoke		# критичные быстрые тесты
+pytest -m regression	# полный набор тестов
+pytest -m positive	# позитивные сценарии
+pytest -m login		# тестирование логина
+pytest -m all		# все тесты
+pytest -m burger_menu	# тестирование 'Бургер меню'
 ```
 
 ### 5. Просмотр Allure отчетов

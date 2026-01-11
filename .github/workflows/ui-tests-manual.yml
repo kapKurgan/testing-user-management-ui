@@ -1,12 +1,20 @@
-name: UI Tests
+name: UI Tests manual
 
 on:
-  # Запускать при новом коммите в указанные ветки
-  push:
-    branches: [ main, master, develop ]
-  # Запускать при создании pull request в указанные ветки
-  pull_request:
-    branches: [ main, master, develop ]
+  workflow_dispatch:
+    inputs:
+      SCENARIO:
+        type: choice
+        default: '-m login'
+        options:
+          - '-m login'
+          - '-m all'
+          - '-m burger_menu'
+          - '-m positive'
+          - '-m smoke'
+          - '-m regression'
+        required: true
+        description: 'Выберите набор тестов'
 
 
 jobs:
@@ -39,7 +47,7 @@ jobs:
 
       - name: Запуск тестов
         run: |
-          xvfb-run pytest -v --alluredir=reports/${{ github.run_id }}/allure-results --capture=tee-sys --html=reports/${{ github.run_id }}/pytest_report.html
+          xvfb-run pytest ${{ github.event.inputs.SCENARIO }} --alluredir=reports/${{ github.run_id }}/allure-results --html=reports/${{ github.run_id }}/pytest_report.html
       - name: Установка Allure CLI
         if: always()
         run: |
