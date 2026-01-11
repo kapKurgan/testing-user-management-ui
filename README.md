@@ -172,7 +172,7 @@ docker run --rm -p 8080:8080 -p 5252:5252 -v ${PWD}/reports:/app/reports aqa-py
 - ручного запуска тестов в [ui-tests-manual.yml](./.github/workflows/ui-tests-manual.yml)
 
 Ручной запуск через интерфейс GitHub:
-- [Перейдите в Actions > API Tests > Run workflow](https://github.com/kapKurgan/effective-mobile/actions)
+- [Перейдите в Actions > UI Tests manual > Run workflow](https://github.com/kapKurgan/effective-mobile/actions)
 - Выберите сценарий тестов (например, **-m login**)
 - Нажмите **workflow**
 
