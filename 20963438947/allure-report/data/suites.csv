@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 13 16:00:55 UTC 2026","Tue Jan 13 16:00:57 UTC 2026","1922","tests","test_burger_menu","","","","Получение информации о сайте (пункт 'About' в 'Бургер меню')","Получение информации о сайте (пункт 'About' в 'Бургер меню')"
+"passed","Tue Jan 13 16:00:47 UTC 2026","Tue Jan 13 16:00:52 UTC 2026","5188","tests","test_page_login","TestsLogin","","","Логин performance_glitch_user","Медленный пользователь"
+"passed","Tue Jan 13 16:00:46 UTC 2026","Tue Jan 13 16:00:46 UTC 2026","197","tests","test_page_login","TestsLogin","","","Успешный логин","Стандартный пользователь"
+"passed","Tue Jan 13 16:00:52 UTC 2026","Tue Jan 13 16:00:52 UTC 2026","125","tests","test_page_login","TestsLogin","","","Логин с неверным паролем","Неправильный пароль"
+"passed","Tue Jan 13 16:00:53 UTC 2026","Tue Jan 13 16:00:53 UTC 2026","115","tests","test_page_login","TestsLogin","","","Логин с пустыми полями","Пустые логин и пароль"
+"passed","Tue Jan 13 16:00:53 UTC 2026","Tue Jan 13 16:00:55 UTC 2026","1901","tests","test_burger_menu","","","","Получение списков 'Названия' и 'Локаторы' кнопок в 'Бургер меню'","Получение списков 'Названия' и 'Локаторы' кнопок в 'Бургер меню'"
+"passed","Tue Jan 13 16:00:53 UTC 2026","Tue Jan 13 16:00:53 UTC 2026","113","tests","test_page_login","TestsLogin","","","Логин заблокированного пользователя","Пользователь заблокирован"
