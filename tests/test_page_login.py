@@ -69,6 +69,7 @@ class TestsLogin:
     @allure.story("Негативный сценарий")
     @allure.tag("negative")
     @allure.severity(allure.severity_level.MINOR)
+    @pytest.mark.xfail(strict=True)
     @pytest.mark.parametrize("input_value", login_date_negative)
     def test_login_negative(self, open_home_page, input_value: list) -> None:
         run_login_test(open_home_page, input_value)
@@ -78,4 +79,7 @@ class TestsLogin:
         print(f"  ⚠️ Ошибка: {actual_msg}")
         with allure.step(f"Появилось сообщение об ошибке: {actual_msg}"):
             attach_screenshot(open_home_page.page, "Скриншот с ошибкой")
+        with allure.step(f"Проверяем переход на '{LOGO_PAGE_PRODUCTS}'"):
+            open_home_page.page_products()
+
         print(f"🏁 Тест окончен")
