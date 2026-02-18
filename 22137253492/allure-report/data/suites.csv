@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Feb 18 11:08:22 UTC 2026","Wed Feb 18 11:08:22 UTC 2026","507","tests","test_page_login","TestsLogin","","","Успешный логин","Стандартный пользователь"
+"skipped","Wed Feb 18 11:08:21 UTC 2026","Wed Feb 18 11:08:27 UTC 2026","5420","tests","test_page_login","TestsLogin","","","Логин заблокированного пользователя","Пользователь заблокирован"
+"passed","Wed Feb 18 11:08:27 UTC 2026","Wed Feb 18 11:08:29 UTC 2026","1620","tests","test_burger_menu","","","","Получение информации о сайте (пункт 'About' в 'Бургер меню')","Получение информации о сайте (пункт 'About' в 'Бургер меню')"
+"passed","Wed Feb 18 11:08:21 UTC 2026","Wed Feb 18 11:08:27 UTC 2026","5341","tests","test_page_login","TestsLogin","","","Логин performance_glitch_user","Медленный пользователь"
+"passed","Wed Feb 18 11:08:27 UTC 2026","Wed Feb 18 11:08:29 UTC 2026","1899","tests","test_burger_menu","","","","Получение списков 'Названия' и 'Локаторы' кнопок в 'Бургер меню'","Получение списков 'Названия' и 'Локаторы' кнопок в 'Бургер меню'"
+"skipped","Wed Feb 18 11:08:22 UTC 2026","Wed Feb 18 11:08:28 UTC 2026","5167","tests","test_page_login","TestsLogin","","","Логин с пустыми полями","Пустые логин и пароль"
+"skipped","Wed Feb 18 11:08:21 UTC 2026","Wed Feb 18 11:08:27 UTC 2026","5459","tests","test_page_login","TestsLogin","","","Логин с неверным паролем","Неправильный пароль"
