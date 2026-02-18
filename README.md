@@ -190,7 +190,7 @@ https://kapKurgan.github.io/testing-user-management-ui/<run_id>/pytest-report.ht
 ```
 
 Например:
-https://kapKurgan.github.io/testing-user-management-ui/21823455741/pytest_report.html
+https://kapKurgan.github.io/testing-user-management-ui/22136980668/pytest_report.html
 
 ### ALLURE 
 
@@ -199,7 +199,7 @@ https://kapKurgan.github.io/testing-user-management-ui/<run_id>/allure-report/in
 ```
 
 Например:
-https://kapKurgan.github.io/testing-user-management-ui/21823455741/allure-report/index.html
+https://kapKurgan.github.io/testing-user-management-ui/22136980668/allure-report/index.html
 
 ---
 

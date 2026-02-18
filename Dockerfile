@@ -1,7 +1,7 @@
 FROM python:3.10
 
 LABEL maintainer="kkaapp@yandex.ru" \
-      description="AQA Python: UI-тесты на Playwright + pytest + Allure для Effective Mobile"
+      description="AQA Python: UI-тесты на Playwright + pytest + Allure"
 
 WORKDIR /app
 
