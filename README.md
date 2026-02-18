@@ -86,8 +86,8 @@ https://www.saucedemo.com/
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/kapKurgan/effective-mobile.git
-cd effective-mobile
+git clone https://github.com/kapKurgan/testing-user-management-ui.git
+cd testing-user-management-ui
 ```
 
 ### 2. Создать виртуальную среду
@@ -174,7 +174,7 @@ docker run --rm -p 8080:8080 -p 5252:5252 -v ${PWD}/reports:/app/reports aqa-py
 - ручного запуска тестов в [ui-tests-manual.yml](./.github/workflows/ui-tests-manual.yml)
 
 Ручной запуск через интерфейс GitHub:
-- [Перейдите в Actions > UI Tests manual > Run workflow](https://github.com/kapKurgan/effective-mobile/actions/workflows/ui-tests-manual.yml)
+- [Перейдите в Actions > UI Tests manual > Run workflow](https://github.com/kapKurgan/testing-user-management-ui/actions/workflows/ui-tests-manual.yml)
 - Выберите сценарий тестов (например, **-m login**)
 - Нажмите **workflow**
 
@@ -186,20 +186,20 @@ docker run --rm -p 8080:8080 -p 5252:5252 -v ${PWD}/reports:/app/reports aqa-py
 ### HTML
 
 ```bash
-https://kapKurgan.github.io/effective-mobile/<run_id>/pytest-report.html
+https://kapKurgan.github.io/testing-user-management-ui/<run_id>/pytest-report.html
 ```
 
 Например:
-https://kapKurgan.github.io/effective-mobile/21823455741/pytest_report.html
+https://kapKurgan.github.io/testing-user-management-ui/21823455741/pytest_report.html
 
 ### ALLURE 
 
 ```bash
-https://kapKurgan.github.io/effective-mobile/<run_id>/allure-report/index.html
+https://kapKurgan.github.io/testing-user-management-ui/<run_id>/allure-report/index.html
 ```
 
 Например:
-https://kapKurgan.github.io/effective-mobile/21823455741/allure-report/index.html
+https://kapKurgan.github.io/testing-user-management-ui/21823455741/allure-report/index.html
 
 ---
 
